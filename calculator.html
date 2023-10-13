@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js" defer></script>
+    <script src="theory.js" defer></script>
+</head>
+<body class="bg-dark text-light">
+<div class="container w-50 pt-5">
+<header>
+<h1>Calculator</h1>
+</header>
+
+<main>
+<form action="#" method="GET">
+    <input 
+    type="number" 
+    class = "form-control mb-2"
+    placeholder="Enter first number" 
+    id="num1"
+    value = "10"
+    >
+
+    <input 
+    type="number" 
+    class = "form-control mb-2"
+    placeholder="Enter second number" 
+    id="num2"
+    value = "5"
+    >
+<!-- class=""btn btn-success flex-grow-1 mx-2 id="multiply" -->
+<div class="container">
+    <button class="btn btn-success flex-grow-1 mx-2" id="plus">+</button>
+    <button class="btn btn-success flex-grow-1 mx-2" id="minus">-</button>
+    <button class="btn btn-success flex-grow-1 mx-2" id="multiply">*</button>
+    <button class="btn btn-success flex-grow-1 mx-2" id="divide">/</button>
+</div>
+
+    <button  class="btn btn-outline-info w-100 mb-2" id="submit">Count</button>
+
+</form>
+<div class="result">
+<h4>Result: </h4>
+<p id="result" class="mb-0"></p>
+</div>
+
+</div>
+</main>
+
+<footer>
+  
+</footer>
+</body>
+</html>
